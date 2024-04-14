@@ -2,6 +2,6 @@
 
 from .rtdetr import RTDETR
 from .sam import SAM
-from .yolo import YOLO, YOLOWorld
+from .mohu import MOHU, YOLOWorld
 
-__all__ = "YOLO", "RTDETR", "SAM", "YOLOWorld"  # allow simpler import
+__all__ = "MOHU", "RTDETR", "SAM", "YOLOWorld"  # allow simpler import
