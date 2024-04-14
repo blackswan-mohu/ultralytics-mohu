@@ -14,7 +14,7 @@ settings = SETTINGS
 __all__ = (
     "__version__",
     "ASSETS",
-    "YOLO",
+    "MOHU",
     "YOLOWorld",
     "NAS",
     "SAM",
