@@ -3,12 +3,12 @@
 from pathlib import Path
 
 from ultralytics.engine.model import Model
-from ultralytics.models import yolo
+from ultralytics.models import mohu
 from ultralytics.nn.tasks import ClassificationModel, DetectionModel, OBBModel, PoseModel, SegmentationModel, WorldModel
 from ultralytics.utils import ROOT, yaml_load
 
 
-class YOLO(Model):
+class MOHU(Model):
     """YOLO (You Only Look Once) object detection model."""
 
     def __init__(self, model="yolov8n.pt", task=None, verbose=False):
