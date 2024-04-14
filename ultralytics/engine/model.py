@@ -93,7 +93,7 @@ class Model(nn.Module):
 
     def __init__(
         self,
-        model: Union[str, Path] = "yolov8n.pt",
+        model: Union[str, Path] = "mohuv8n.pt",
         task: str = None,
         verbose: bool = False,
     ) -> None:
